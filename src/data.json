@@ -1,0 +1,363 @@
+{
+  "research": [
+    {
+      "id": "res-1",
+      "title": "Pneumothorax Detection & Explainability",
+      "description": "Evaluating image enhancement strategies for chest X-ray classification using Bayesian-optimized CLAHE and DenseNet-121, with Grad-CAM attribution and downstream language-based explanations. Final held-out ROC-AUC: 0.9293 .",
+      "category": "imaging",
+      "tags": [
+        "PyTorch",
+        "DenseNet-121",
+        "BO-CLAHE",
+        "Grad-CAM"
+      ],
+      "url": null,
+      "status": "Research project ↗ 2026"
+    },
+    {
+      "id": "res-2",
+      "title": "Pediatric Orbital Fracture Across Hospitals",
+      "description": "Investigating cross-hospital domain shift in pediatric radiographs with global classification, bilateral anatomical symmetry, local orbit representations, and target-domain calibration.",
+      "category": "imaging",
+      "tags": [
+        "ResNet",
+        "Domain Shift",
+        "Symmetry",
+        "Calibration"
+      ],
+      "url": null,
+      "status": "Research project ↗ 2026"
+    },
+    {
+      "id": "res-3",
+      "title": "VR Classroom Behavioral Analysis",
+      "description": "Exploring motion trajectories and multivariate spatiotemporal signals from a virtual classroom environment to study behavioral patterns relevant to autism spectrum disorder assessment. Focused on data quality, representation, and meaningful behavioral features.",
+      "category": "behavior",
+      "tags": [
+        "VR Telemetry",
+        "Time Series",
+        "Motion Analysis",
+        "Feature Engineering"
+      ],
+      "url": null,
+      "status": "Ongoing exploration ↗ 2026"
+    },
+    {
+      "id": "res-4",
+      "title": "Children's Emotional Expression Modeling",
+      "description": "Studying facial action-unit sequences for emotion classification using compact state-space-inspired sequence networks and traditional baselines under subject-independent evaluation.",
+      "category": "behavior",
+      "tags": [
+        "Action Units",
+        "Sequence Models",
+        "SSM",
+        "Cross-Validation"
+      ],
+      "url": null,
+      "status": "Research project ↗ 2026"
+    }
+  ],
+  "engineering": [
+    {
+      "id": "eng-1",
+      "title": "IoT Device Management Platform",
+      "description": "Contributed to frontend and backend systems for managing connected devices, integrating real-time communication via MQTT and WebSockets, API services, and cloud deployment workflows.",
+      "category": "industry",
+      "tags": [
+        "React",
+        "Node.js",
+        "NestJS",
+        "MQTT",
+        "WebSockets",
+        "AWS",
+        "Nginx"
+      ],
+      "url": null,
+      "status": "Industry experience 2024–2025"
+    },
+    {
+      "id": "eng-2",
+      "title": "Laboratory Information System",
+      "description": "Healthcare software project listed in my professional resume. My uExel work centered on TypeScript/NestJS backend services, REST APIs, PostgreSQL, and production support.",
+      "category": "industry",
+      "tags": [
+        "Healthcare IT",
+        "TypeScript",
+        "NestJS",
+        "PostgreSQL",
+        "REST APIs"
+      ],
+      "url": "https://uexel.com/lab-information-system/",
+      "status": "Industry project Project website ↗"
+    },
+    {
+      "id": "eng-3",
+      "title": "Health Software Solution",
+      "description": "Healthcare technology solution referenced in my resume, part of my earlier experience delivering and maintaining backend services for healthcare software environments.",
+      "category": "industry",
+      "tags": [
+        "Healthcare Systems",
+        "Backend Engineering",
+        "APIs",
+        "SQL"
+      ],
+      "url": "https://medit360.com/",
+      "status": "Industry project Project website ↗"
+    },
+    {
+      "id": "eng-4",
+      "title": "Incident Mapping & Reporting Systems",
+      "description": "Contributed during my work at uExel, where the project portfolio included an Incident Mapping System (IMS) and Incident Reporting System (IRS). Focused on reliable backend APIs and database integration.",
+      "category": "industry",
+      "tags": [
+        "Incident Management",
+        "REST APIs",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "url": null,
+      "status": "Industry projects IMS / IRS"
+    },
+    {
+      "id": "eng-5",
+      "title": "BHAS-Proforma",
+      "description": "A named laboratory-related project from my resume, completed within my wider backend development experience in healthcare information technology.",
+      "category": "industry",
+      "tags": [
+        "Healthcare IT",
+        "NestJS",
+        "TypeScript",
+        "Database Design"
+      ],
+      "url": null,
+      "status": "Industry project Private / test link omitted"
+    },
+    {
+      "id": "eng-6",
+      "title": "Real-Time Backend & Web Applications",
+      "description": "Developed billing-related APIs, role-based authentication, database schemas, Socket.IO functionality, React/Redux interfaces, and manual/automated backend testing.",
+      "category": "industry",
+      "tags": [
+        "TypeScript",
+        "Express",
+        "NestJS",
+        "React",
+        "Redux",
+        "Socket.IO",
+        "MongoDB"
+      ],
+      "url": null,
+      "status": "Engineering contributions 2024"
+    },
+    {
+      "id": "eng-7",
+      "title": "Potato Disease Classification",
+      "description": "End-to-end deep-learning project for classifying potato plant diseases from images, with a proposed farmer-facing web application. The resume describes TensorFlow/CNN modeling and a stack involving FastAPI, TensorFlow Serving, TFLite, and React; specific deployment outcomes are not documented.",
+      "category": "academic",
+      "tags": [
+        "TensorFlow",
+        "CNN",
+        "FastAPI",
+        "React",
+        "TFLite"
+      ],
+      "url": null,
+      "status": "Final-year project Undergraduate"
+    },
+    {
+      "id": "eng-8",
+      "title": "Insurance Eligibility Predictor",
+      "description": "Built an age-based insurance eligibility prediction project using logistic regression, applying core machine-learning concepts in a course setting.",
+      "category": "academic",
+      "tags": [
+        "Python",
+        "Logistic Regression",
+        "ML Fundamentals"
+      ],
+      "url": null,
+      "status": "Semester project Undergraduate"
+    },
+    {
+      "id": "eng-9",
+      "title": "Global News Explorer",
+      "description": "Created a React-based news discovery app integrating external news APIs and country filters for browsing international headlines.",
+      "category": "academic",
+      "tags": [
+        "React.js",
+        "REST APIs",
+        "Interactive Filters"
+      ],
+      "url": null,
+      "status": "Semester project Undergraduate"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Graduate Student Researcher",
+      "company": "Soonchunhyang University · South Korea",
+      "period": "Sep 2026 — Present",
+      "description": "Conducting research in medical imaging AI, computer vision, time-series analysis, and multimodal deep learning. Developing frameworks for disease detection and robust clinical AI, while investigating VR-based behavioral data for ASD assessment.",
+      "tags": [
+        "Deep Learning",
+        "Medical Imaging",
+        "Computer Vision",
+        "Time Series"
+      ]
+    },
+    {
+      "role": "Backend Developer",
+      "company": "Gamican (Pvt.) Ltd.",
+      "period": "Jan 2025 — Aug 2025",
+      "description": "Designed and developed scalable server-side applications with Node.js and SQL databases, prioritizing reliability, maintainability, and performance.",
+      "tags": [
+        "Node.js",
+        "SQL",
+        "Backend Systems"
+      ]
+    },
+    {
+      "role": "Software Engineer · Full Stack",
+      "company": "Bluell AB · Sweden",
+      "period": "Dec 2024 — Aug 2025",
+      "description": "Built and supported connected-device management workflows across React, TypeScript, and Node.js, including REST APIs, PostgreSQL/MySQL database work, MQTT and WebSockets, production troubleshooting, and deployment with AWS and Nginx.",
+      "tags": [
+        "React",
+        "Tailwind CSS",
+        "Ant Design",
+        "MQTT",
+        "WebSockets",
+        "NestJS",
+        "AWS"
+      ]
+    },
+    {
+      "role": "Associate Software Engineer",
+      "company": "Developers Den LLC · Remote, USA",
+      "period": "Jun 2024 — Nov 2024",
+      "description": "Developed complex TypeScript/Python backend systems covering billing workflows, role-based authentication, multifunctional APIs, and Socket.IO real-time features. Built React/Redux frontends, designed MongoDB schemas, and performed manual and automated backend testing.",
+      "tags": [
+        "TypeScript",
+        "Express.js",
+        "NestJS",
+        "React",
+        "Redux",
+        "PostgreSQL",
+        "Socket.IO"
+      ]
+    },
+    {
+      "role": "Backend Developer",
+      "company": "uExel · Islamabad, Pakistan",
+      "period": "Jun 2023 — Jul 2024",
+      "description": "Developed and maintained scalable NestJS/TypeScript backend services for healthcare IT applications, integrating REST APIs with PostgreSQL. Work included laboratory information software, healthcare solutions, incident mapping, and incident reporting systems.",
+      "tags": [
+        "Healthcare IT",
+        "NestJS",
+        "TypeScript"
+      ]
+    },
+    {
+      "role": "Backend Developer Intern",
+      "company": "uExel · Islamabad, Pakistan",
+      "period": "Oct 2022 — Jun 2023",
+      "description": "Began a professional backend engineering journey with practical experience in NestJS and database tooling.",
+      "tags": [
+        "NestJS",
+        "Databases",
+        "Backend Development"
+      ]
+    },
+    {
+      "role": "Frontend Web Developer",
+      "company": "MA Digital Marketing · Rawalpindi, Pakistan",
+      "period": "Feb 2022 — Jul 2022",
+      "description": "Built responsive websites using React.js, HTML, CSS, and Bootstrap; collaborated with design and backend teams, improved website accessibility and performance, and contributed to code reviews and project documentation.",
+      "tags": [
+        "React.js",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Accessibility"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "title": "AI & Research",
+      "items": [
+        "Python",
+        "PyTorch",
+        "Deep Learning",
+        "CNNs",
+        "Vision Transformers",
+        "Grad-CAM",
+        "Image Preprocessing",
+        "Time-Series Analysis",
+        "TensorFlow",
+        "FastAPI",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "title": "Backend & Real Time",
+      "items": [
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "NestJS",
+        "PostgreSQL",
+        "SQL",
+        "Socket.IO",
+        "MQTT",
+        "WebSockets",
+        "MySQL",
+        "MongoDB",
+        "Python",
+        "PHP / Laravel"
+      ]
+    },
+    {
+      "title": "Frontend & Infrastructure",
+      "items": [
+        "React.js",
+        "Redux",
+        "Tailwind CSS",
+        "Ant Design",
+        "Material UI",
+        "shadcn/ui",
+        "AWS",
+        "Nginx",
+        "Git",
+        "Bootstrap",
+        "GitLab",
+        "Postman"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "heading": "Current · Graduate Studies",
+      "degree": "Master’s in ICT Convergence",
+      "details": [
+        "Soonchunhyang University · Asan, South Korea",
+        "AI research across medical imaging, explainability, computer vision, and behavioral time series."
+      ]
+    },
+    {
+      "heading": "2019 — 2023",
+      "degree": "Bachelor of Science in Computer Science",
+      "details": [
+        "Federal Urdu University of Arts, Sciences & Technology · Islamabad, Pakistan",
+        "Final-year work in CNN-based plant disease classification; course projects in machine learning and React development."
+      ]
+    }
+  ],
+  "certifications": [
+    "Web Development — Coursera",
+    "Exploratory Data Analysis for Machine Learning — Coursera",
+    "Fundamentals of NestJS — Coursera",
+    "HTML, CSS & JavaScript for Web Developers — Coursera",
+    "Freelancing — DigiSkills Pakistan",
+    "WordPress — DigiSkills Pakistan"
+  ]
+}
