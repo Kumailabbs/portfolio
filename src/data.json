@@ -12,7 +12,11 @@
         "Grad-CAM"
       ],
       "url": null,
-      "status": "Research project ↗ 2026"
+      "status": "Research project ↗ 2026",
+      "ko": {
+        "title": "기흉 진단 및 설명가능 AI",
+        "description": "베이지안 최적화 CLAHE와 DenseNet-121을 활용한 흉부 X선 영상 분류에서 영상 향상 기법을 평가합니다. Grad-CAM 시각화와 언어 모델 기반 설명을 결합했으며, 독립 테스트 ROC-AUC는 0.9293입니다."
+      }
     },
     {
       "id": "res-2",
@@ -26,7 +30,11 @@
         "Calibration"
       ],
       "url": null,
-      "status": "Research project ↗ 2026"
+      "status": "Research project ↗ 2026",
+      "ko": {
+        "title": "병원 간 소아 안와 골절 탐지",
+        "description": "전체 영상 분류, 양측 해부학적 대칭성, 국소 안와 표현 및 목표 도메인 보정을 통해 병원 간 데이터 분포 차이를 연구합니다."
+      }
     },
     {
       "id": "res-3",
@@ -40,7 +48,11 @@
         "Feature Engineering"
       ],
       "url": null,
-      "status": "Ongoing exploration ↗ 2026"
+      "status": "Ongoing exploration ↗ 2026",
+      "ko": {
+        "title": "VR 교실 행동 분석",
+        "description": "가상 교실 환경의 움직임 궤적과 다변량 시공간 신호를 분석하여 자폐 스펙트럼 장애 평가와 관련된 행동 패턴을 탐구합니다. 데이터 품질, 표현 방법 및 의미 있는 행동 특성에 중점을 둡니다."
+      }
     },
     {
       "id": "res-4",
@@ -54,7 +66,11 @@
         "Cross-Validation"
       ],
       "url": null,
-      "status": "Research project ↗ 2026"
+      "status": "Research project ↗ 2026",
+      "ko": {
+        "title": "아동 감정 표현 모델링",
+        "description": "피험자 독립 평가 설정에서 상태공간모델 기반의 소형 시퀀스 네트워크와 전통적 기준 모델을 사용하여 얼굴 행동 단위 시퀀스의 감정 분류를 연구합니다."
+      }
     }
   ],
   "engineering": [
@@ -73,7 +89,11 @@
         "Nginx"
       ],
       "url": null,
-      "status": "Industry experience 2024–2025"
+      "status": "Industry experience 2024–2025",
+      "ko": {
+        "title": "IoT 기기 관리 플랫폼",
+        "description": "연결된 기기를 관리하는 프런트엔드 및 백엔드 시스템 개발에 기여했습니다. MQTT와 WebSocket 기반 실시간 통신, API 서비스 및 클라우드 배포 워크플로를 통합했습니다."
+      }
     },
     {
       "id": "eng-2",
@@ -88,7 +108,11 @@
         "REST APIs"
       ],
       "url": "https://uexel.com/lab-information-system/",
-      "status": "Industry project Project website ↗"
+      "status": "Industry project Project website ↗",
+      "ko": {
+        "title": "검사실 정보 시스템",
+        "description": "이력서에 기재된 헬스케어 소프트웨어 프로젝트입니다. uExel에서 TypeScript/NestJS 백엔드, REST API, PostgreSQL 및 운영 지원 업무를 수행했습니다."
+      }
     },
     {
       "id": "eng-3",
@@ -102,7 +126,11 @@
         "SQL"
       ],
       "url": "https://medit360.com/",
-      "status": "Industry project Project website ↗"
+      "status": "Industry project Project website ↗",
+      "ko": {
+        "title": "헬스케어 소프트웨어 솔루션",
+        "description": "이력서에 기재된 의료 소프트웨어 솔루션으로, 의료 환경에서 백엔드 서비스를 개발하고 유지보수한 경험과 관련됩니다."
+      }
     },
     {
       "id": "eng-4",
@@ -116,7 +144,11 @@
         "PostgreSQL"
       ],
       "url": null,
-      "status": "Industry projects IMS / IRS"
+      "status": "Industry projects IMS / IRS",
+      "ko": {
+        "title": "사고 지도화 및 보고 시스템",
+        "description": "uExel 재직 중 사고 지도화 시스템(IMS)과 사고 보고 시스템(IRS)을 포함한 프로젝트에 참여했으며, 안정적인 백엔드 API와 데이터베이스 연동에 집중했습니다."
+      }
     },
     {
       "id": "eng-5",
@@ -130,7 +162,11 @@
         "Database Design"
       ],
       "url": null,
-      "status": "Industry project Private / test link omitted"
+      "status": "Industry project Private / test link omitted",
+      "ko": {
+        "title": "BHAS-Proforma",
+        "description": "의료 정보 기술 분야에서 백엔드 개발 업무를 수행하며 참여한 검사실 관련 프로젝트입니다."
+      }
     },
     {
       "id": "eng-6",
@@ -147,7 +183,11 @@
         "MongoDB"
       ],
       "url": null,
-      "status": "Engineering contributions 2024"
+      "status": "Engineering contributions 2024",
+      "ko": {
+        "title": "실시간 백엔드 및 웹 애플리케이션",
+        "description": "결제 관련 API, 역할 기반 인증, 데이터베이스 스키마, Socket.IO 기능, React/Redux 인터페이스를 개발하고 수동 및 자동 백엔드 테스트를 수행했습니다."
+      }
     },
     {
       "id": "eng-7",
@@ -162,7 +202,11 @@
         "TFLite"
       ],
       "url": null,
-      "status": "Final-year project Undergraduate"
+      "status": "Final-year project Undergraduate",
+      "ko": {
+        "title": "감자 질병 분류",
+        "description": "감자 잎 이미지의 질병을 분류하는 딥러닝 최종 학년 프로젝트로 농업인을 위한 웹앱을 제안했습니다. 이력서에는 TensorFlow/CNN, FastAPI, TensorFlow Serving, TFLite 및 React가 기술되어 있으나 실제 배포 여부는 명시되어 있지 않습니다."
+      }
     },
     {
       "id": "eng-8",
@@ -175,7 +219,11 @@
         "ML Fundamentals"
       ],
       "url": null,
-      "status": "Semester project Undergraduate"
+      "status": "Semester project Undergraduate",
+      "ko": {
+        "title": "보험 가입 자격 예측",
+        "description": "로지스틱 회귀를 이용해 연령 기반 보험 가입 자격을 예측하는 학부 수업 프로젝트를 개발했습니다."
+      }
     },
     {
       "id": "eng-9",
@@ -188,7 +236,11 @@
         "Interactive Filters"
       ],
       "url": null,
-      "status": "Semester project Undergraduate"
+      "status": "Semester project Undergraduate",
+      "ko": {
+        "title": "글로벌 뉴스 탐색기",
+        "description": "외부 뉴스 API를 연동하고 국가별 필터를 제공하는 React 기반 뉴스 탐색 웹앱을 만들었습니다."
+      }
     }
   ],
   "experience": [
@@ -202,7 +254,11 @@
         "Medical Imaging",
         "Computer Vision",
         "Time Series"
-      ]
+      ],
+      "ko": {
+        "role": "대학원생 연구원",
+        "description": "의료영상 AI, 컴퓨터 비전, 시계열 분석, 멀티모달 딥러닝을 연구합니다. 질병 탐지와 강건한 의료 AI 프레임워크를 개발하고, ASD 평가와 관련된 VR 행동 데이터를 분석합니다."
+      }
     },
     {
       "role": "Backend Developer",
@@ -213,7 +269,11 @@
         "Node.js",
         "SQL",
         "Backend Systems"
-      ]
+      ],
+      "ko": {
+        "role": "백엔드 개발자",
+        "description": "Node.js와 SQL 데이터베이스를 사용해 확장 가능하고 유지보수하기 쉬운 서버 애플리케이션을 설계하고 개발했습니다."
+      }
     },
     {
       "role": "Software Engineer · Full Stack",
@@ -228,7 +288,11 @@
         "WebSockets",
         "NestJS",
         "AWS"
-      ]
+      ],
+      "ko": {
+        "role": "소프트웨어 엔지니어 · 풀스택",
+        "description": "React, TypeScript, Node.js 기반 IoT 기기 관리 기능을 개발했습니다. REST API, PostgreSQL/MySQL, MQTT, WebSocket, 운영 문제 해결, AWS 및 Nginx 배포를 다뤘습니다."
+      }
     },
     {
       "role": "Associate Software Engineer",
@@ -243,7 +307,11 @@
         "Redux",
         "PostgreSQL",
         "Socket.IO"
-      ]
+      ],
+      "ko": {
+        "role": "어소시에이트 소프트웨어 엔지니어",
+        "description": "결제 처리, 역할 기반 인증, 다기능 API와 Socket.IO를 위한 TypeScript/Python 백엔드 시스템을 개발했습니다. React/Redux 프런트엔드, MongoDB 스키마 설계 및 백엔드 테스트도 수행했습니다."
+      }
     },
     {
       "role": "Backend Developer",
@@ -254,7 +322,11 @@
         "Healthcare IT",
         "NestJS",
         "TypeScript"
-      ]
+      ],
+      "ko": {
+        "role": "백엔드 개발자",
+        "description": "의료 IT 애플리케이션을 위해 NestJS/TypeScript 백엔드와 PostgreSQL 기반 REST API를 개발하고 운영했습니다. 검사실 정보, 의료 솔루션, 사고 지도 및 보고 시스템을 다뤘습니다."
+      }
     },
     {
       "role": "Backend Developer Intern",
@@ -265,7 +337,11 @@
         "NestJS",
         "Databases",
         "Backend Development"
-      ]
+      ],
+      "ko": {
+        "role": "백엔드 개발자 인턴",
+        "description": "NestJS와 데이터베이스 도구를 활용해 백엔드 엔지니어링 실무 경험을 시작했습니다."
+      }
     },
     {
       "role": "Frontend Web Developer",
@@ -278,7 +354,11 @@
         "CSS",
         "Bootstrap",
         "Accessibility"
-      ]
+      ],
+      "ko": {
+        "role": "프런트엔드 웹 개발자",
+        "description": "React.js, HTML, CSS, Bootstrap을 사용해 반응형 웹사이트를 개발했습니다. 디자이너 및 백엔드 개발자와 협업하고 접근성, 성능, 코드 검토 및 문서화에 기여했습니다."
+      }
     }
   ],
   "skills": [
@@ -296,7 +376,10 @@
         "TensorFlow",
         "FastAPI",
         "Scikit-learn"
-      ]
+      ],
+      "ko": {
+        "title": "AI 및 연구"
+      }
     },
     {
       "title": "Backend & Real Time",
@@ -314,7 +397,10 @@
         "MongoDB",
         "Python",
         "PHP / Laravel"
-      ]
+      ],
+      "ko": {
+        "title": "백엔드 및 실시간 시스템"
+      }
     },
     {
       "title": "Frontend & Infrastructure",
@@ -331,7 +417,10 @@
         "Bootstrap",
         "GitLab",
         "Postman"
-      ]
+      ],
+      "ko": {
+        "title": "프런트엔드 및 인프라"
+      }
     }
   ],
   "education": [
@@ -341,7 +430,15 @@
       "details": [
         "Soonchunhyang University · Asan, South Korea",
         "AI research across medical imaging, explainability, computer vision, and behavioral time series."
-      ]
+      ],
+      "ko": {
+        "heading": "현재 · 대학원",
+        "degree": "ICT 융합 석사과정",
+        "details": [
+          "순천향대학교 · 대한민국 아산",
+          "의료영상, 설명가능 AI, 컴퓨터 비전 및 행동 시계열 분야의 AI 연구"
+        ]
+      }
     },
     {
       "heading": "2019 — 2023",
@@ -349,7 +446,15 @@
       "details": [
         "Federal Urdu University of Arts, Sciences & Technology · Islamabad, Pakistan",
         "Final-year work in CNN-based plant disease classification; course projects in machine learning and React development."
-      ]
+      ],
+      "ko": {
+        "heading": "2019 — 2023",
+        "degree": "컴퓨터과학 학사",
+        "details": [
+          "Federal Urdu University of Arts, Sciences & Technology · 파키스탄 이슬라마바드",
+          "CNN 기반 식물 질병 분류 졸업 프로젝트 및 머신러닝·React 개발 수업 프로젝트"
+        ]
+      }
     }
   ],
   "certifications": [
@@ -359,5 +464,49 @@
     "HTML, CSS & JavaScript for Web Developers — Coursera",
     "Freelancing — DigiSkills Pakistan",
     "WordPress — DigiSkills Pakistan"
+  ],
+  "languages": [
+    {
+      "name": "Balti",
+      "koName": "발티어",
+      "level": "Native language",
+      "koLevel": "모국어",
+      "kind": "native"
+    },
+    {
+      "name": "Urdu",
+      "koName": "우르두어",
+      "level": "Proficient",
+      "koLevel": "능숙",
+      "kind": "proficient"
+    },
+    {
+      "name": "English",
+      "koName": "영어",
+      "level": "Proficient",
+      "koLevel": "능숙",
+      "kind": "proficient"
+    },
+    {
+      "name": "Korean",
+      "koName": "한국어",
+      "level": "TOPIK Level 4",
+      "koLevel": "TOPIK 4급",
+      "kind": "topik"
+    },
+    {
+      "name": "Arabic",
+      "koName": "아랍어",
+      "level": "Reading",
+      "koLevel": "읽기 가능",
+      "kind": "reading"
+    },
+    {
+      "name": "Persian",
+      "koName": "페르시아어",
+      "level": "Reading",
+      "koLevel": "읽기 가능",
+      "kind": "reading"
+    }
   ]
 }

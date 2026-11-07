@@ -1,52 +1,51 @@
-# Kumail Abbas — React + Ant Design portfolio
+# Kumail Abbas — Interactive 3D Research Portfolio
 
-A research-first, responsive portfolio built with **React 18**, **Vite 6**, **Ant Design 5**, and `@ant-design/icons`.
+Responsive **React 18 + Ant Design 5 + Three.js** portfolio, based on the supplied resume and LinkedIn work history.
 
-## Requirements
+## Quick start
 
-- Node.js 20+ recommended
-- npm
-
-## Local development
+Requires Node.js 18+.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open the local URL displayed in the terminal (typically http://localhost:5173).
+Open the URL Vite prints (typically http://localhost:5173).
 
-## Build for production
+## Production build
 
 ```bash
 npm run build
 npm run preview
 ```
 
-The static output is in `dist/`. Vite is configured with a relative asset base (`./`) so it can also deploy to GitHub Pages project repositories.
+The static output is generated in `dist/`. To deploy on GitHub Pages, push to GitHub and enable the included Pages workflow (Settings → Pages → Source: GitHub Actions). Vite uses a relative base (`./`) compatible with repository Pages URLs.
 
-## Edit your content
+## What's new in the 3D edition
 
-- `src/data.json`: research projects, engineering projects, jobs, skills, education, courses.
-- `src/App.jsx`: introduction, contact info, section layouts.
-- `src/components/ProjectCard.jsx`: reusable cards.
-- `src/styles.css`: layout, spacing, colors, responsive design.
-- `src/main.jsx`: Ant Design theme.
+- True realtime **WebGL hero** with a procedurally generated AI-inspired structure, orbit rings and satellite nodes, interactive mouse parallax, and pause/resume control.
+- Pointer-reactive **3D project cards** with depth and subtle light sheen.
+- Mobile-friendly 2D layout fallback; WebGL capability fallback; reduced-motion friendly cards.
+- No 3D model downloads, external artwork, third-party tracking, or external API keys required.
 
-The GitHub profile URL is intentionally omitted because it has not been supplied. Update this once known. Employer projects should only be described with publicly shareable information.
+## Edit portfolio information
 
-## Deploy to GitHub Pages
+- `src/data.json`: research, career, engineering, skills, education and certifications.
+- `src/components/ResearchScene3D.jsx`: 3D WebGL visualization.
+- `src/components/ProjectCard.jsx`: project cards and tilt interaction.
+- `src/styles.css`: colors, typography, responsiveness.
+- `src/App.jsx`: page sections and navigation.
 
-The simplest route is a GitHub Actions workflow that builds and deploys the `dist/` directory; a ready workflow is included in `.github/workflows/deploy.yml`.
+Review project descriptions and employer permission before publishing. Commercial roles follow the newer LinkedIn dates where supplied. Research studies should not be represented as already published.
 
-1. Push this repository to GitHub.
-2. In repository **Settings → Pages**, set **Source** to **GitHub Actions**.
-3. Push changes to the `main` branch. The workflow builds and publishes automatically.
 
-Alternatively, upload the contents of `dist/` to any static hosting provider (Netlify, Vercel, Cloudflare Pages, etc.).
+## Full-screen 3D cover
+The interactive Three.js visualization now fills the homepage cover behind the headline, rather than appearing as a small right-side card. The headline uses gradient overlays for contrast. Desktop and mobile styles are included.
 
-## Notes
+## Language support (EN / 한국어)
 
-- The portfolio uses no backend and no private keys.
-- No private dataset images or confidential research data are bundled.
-- Employment dates follow the more recent LinkedIn details supplied in chat when the older resume differs.
+- The header provides an English / Korean switch. It works on desktop and mobile and stores the selection in `localStorage`.
+- Main headings, descriptions, career history, project cards and filters are translated into Korean. Technology names, organization names, URLs and course titles remain in their original form as proper nouns.
+- Edit `src/translations.js` for interface copy. Each project, experience, education, and skill group has optional Korean content in `src/data.json`.
+- A separate language section lists Balti (native), Urdu and English (proficient), Korean (TOPIK Level 4), and Arabic and Persian (reading ability). Arabic and Persian are NOT offered as website translation options.
